@@ -1,0 +1,138 @@
+@font-face { font-family: "XiaoWei"; 
+    src: url('fonts/XiaoWei.ttf'); } 
+@font-face { font-family: "Comfortaa";
+    src: url('fonts/Comfortaa.ttf'); }
+@font-face {font-family: 'creteround';
+    src:url('fonts/Crete_Round/CreteRound-Regular.ttf');}
+@font-face {font-family: 'OldStandard';
+    src:url('fonts/Old Standard/OldStandardTT-Regular.ttf');}
+*{
+    margin:0;
+    padding:0;
+}
+
+body {
+    background-image: url("background-images/fruitvegblur.jpeg");
+    background-size: 120vmax;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#welcomeNote { 
+    font-size : 62px;
+    text-align: center;
+    padding-top: 5px;
+    margin-bottom:-10px;
+    text-shadow: 0px 0px 1px rgb(19,19,19),0px 0px 2px rgb(19,19,19),0px 0px 2px rgb(19,19,19),0px 0px 1px rgb(19,19,19),0px 0px 1px rgb(19,19,19),0px 0px 1px rgb(19,19,19),0px 0px 1px rgb(19,19,19),0px 0px 1px rgb(19,19,19),0px 0px 1px rgb(19,19,19),0px 0px 1px rgb(19,19,19),0px 0px 1px rgb(19,19,19),0px 0px 1px rgb(19,19,19),0px 0px 1px rgb(19,19,19),0px 0px 1px rgb(19,19,19),0px 0px 1px rgb(19,19,19),0px 0px 1px rgb(19,19,19),0px 0px 1px rgb(19,19,19),0px 0px 1px rgb(19,19,19),0px 0px 1px rgb(19,19,19),0px 0px 1px rgb(19,19,19),0px 0px 1px rgb(19,19,19),0px 0px 1px orangered,0px 0px 10px orangered;
+    font-family: xiaowei;
+    color:rgb(19, 19, 19); 
+}
+sup {
+    vertical-align: top;
+    font-size: 24px;
+    font-family: comfortaa;
+    font-weight:900;
+    text-shadow:0px 0px 0 black,0px 1px black,0px 0px 2px rgb(255, 153, 0);
+}
+#storeDescription{
+    font-size: 25px;    
+    padding-top:14px;
+    margin-bottom:-5px;
+    font-family:comfortaa;
+    font-weight: bolder;
+    text-shadow: 0px 0px 0.5px black, 0px 0px 0.5px black,0px 0px 1px black;   
+}
+hr{
+    border:solid 5px rgba(37, 29, 29, 0.4);
+    margin: 3px 0 25px 0;
+}
+#textUser{
+    text-align:justify;
+    font-family: comfortaa;
+    font-weight:bolder;
+    color:white;
+    background-color:rgb(0,0,0,0.84);
+    width:41%;    
+    margin: auto;
+    margin-top:.2vw;
+    font-size:38px; 
+    border-radius: 8px;
+    padding:15px 18px;
+    text-shadow:0px 0px 1px rgb(255, 255, 255),0px 0px 9px black;
+    line-height: 50px;
+    box-shadow: 42px 42px 40px rgb(0, 0, 0); 
+    border-bottom:solid rgb(0, 0, 0,.6) 4px;
+    border-right:4px solid rgb(0, 0, 0,.6);
+    
+}
+.red{
+    color:rgb(241, 98, 98);
+    text-shadow: 0px 0px 1px red,0px 0px 1px red,0px 0px 1px red,0px 0px 12px black;
+}
+.buttons{
+    color:rgb(255, 255, 255);
+    font-family:arial;
+    text-shadow:0px 0px 2px rgb(0, 0, 0);
+    font-weight: 750;
+    background-color: rgb(58, 18, 11);
+    border-radius: 14px;
+    padding: 10px 30px;    
+    vertical-align: middle;
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 35px;
+    box-shadow: 0 9px rgb(153, 55, 55);
+    cursor: pointer;
+    margin-top: 4vw;
+    margin-bottom: 2.4vw;
+}
+.basicbuttons {  
+   
+    text-align: center;
+    
+ }
+#newUser { 
+    margin-right:50px;
+}
+#oldUser {
+    letter-spacing: 1.3px;
+}
+.buttons:active {
+
+    transform: translateY(3px);
+    background-color: black;
+    color:rgb(255, 0, 0);
+    font-weight: bolder;
+    box-shadow: 0px 6px rgb(255, 0, 0)
+
+}
+.buttons:hover {
+    transition: .5s linear background-color;
+    background-color:black;
+  
+}
+
+a.buttonLink:link{
+    color:white;
+    text-decoration: none;
+ 
+
+}
+#footText {
+    background-image: linear-gradient(to right,rgb(0,0,0,.6),rgb(0,0,0,.6),rgb(24, 0, 31,0.03),rgb(24, 0, 31,0.03),rgb(24, 0, 31,0.03),rgb(24, 0, 31,0.03),rgb(0,0,0,.6),rgb(0,0,0,.6));
+    font-family: xiaowei;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 900;
+    letter-spacing: 7px;
+    padding: 2px;
+    margin: 0 4px;
+    margin-bottom: 2px;
+    margin-top: 1vw;
+    border-radius: 10px;
+}
+#copyright{
+    font-size: 18px;
+    vertical-align: -.75px;
+ }

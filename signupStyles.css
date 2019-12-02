@@ -1,0 +1,269 @@
+@font-face { font-family: "XiaoWei"; 
+    src: url('fonts/XiaoWei.ttf'); } 
+@font-face { font-family: "Comfortaa";
+    src: url('fonts/Comfortaa.ttf'); }
+@font-face {font-family: 'creteround';
+    src:url('fonts/Crete_Round/CreteRound-Regular.ttf');}
+@font-face {font-family: 'OldStandard';
+    src:url('fonts/Old Standard/OldStandardTT-Regular.ttf');}
+
+body{
+    background-image: url("background-images/fruitvegblur.jpeg");
+    background-size: 120vmax;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin:0;
+        
+}
+#welcomeNote { 
+    font-size : 62px;
+    text-align: center;
+    padding-top: 5px;
+    margin-bottom:-10px;
+    text-shadow: 0px 0px 1px rgb(19,19,19),0px 0px 2px rgb(19,19,19),0px 0px 2px rgb(19,19,19),0px 0px 1px rgb(19,19,19),0px 0px 1px rgb(19,19,19),0px 0px 1px rgb(19,19,19),0px 0px 1px rgb(19,19,19),0px 0px 1px rgb(19,19,19),0px 0px 1px rgb(19,19,19),0px 0px 1px rgb(19,19,19),0px 0px 1px rgb(19,19,19),0px 0px 1px rgb(19,19,19),0px 0px 1px rgb(19,19,19),0px 0px 1px rgb(19,19,19),0px 0px 1px rgb(19,19,19),0px 0px 1px rgb(19,19,19),0px 0px 1px rgb(19,19,19),0px 0px 1px rgb(19,19,19),0px 0px 1px rgb(19,19,19),0px 0px 1px rgb(19,19,19),0px 0px 1px rgb(19,19,19),0px 0px 1px rgb(19,19,19),0px 0px 8px orangered;
+    font-family: xiaowei;
+    color:rgb(19, 19, 19);
+    
+}
+
+
+/*this block of code deals with styling the superscript element which is the copywright symbol.*/
+sup {
+    vertical-align: top;
+    font-size: 24px;
+    font-family: comfortaa;
+    font-weight:900;
+    text-shadow:0px 0px 0 black,0px 1px black,0px 0px 2px orangered;
+}
+
+hr{
+    margin:0;
+    border:solid 2px rgb(77, 70, 70,.4);
+}
+
+
+
+/*the store description is the moving marquee text which is being styled here in the following block of code*/  
+#storeDescription{
+    font-size: 25px;    
+    padding-top:14px;
+    margin-bottom:-5px;
+    font-family:comfortaa;
+    font-weight: bolder;
+    text-shadow: 0px 0px 0.5px black, 0px 0px 0.5px black,0px 0px 1px black;   
+}
+
+#heading{
+    
+    text-align: center;
+    position: relative;
+    color:white;
+    text-shadow:0px 0px 2px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,3px 3px 7px black,;
+    font-family:impact;
+    text-align: center;
+    font-size:40px;
+    letter-spacing: 1.3px;
+    background-image: linear-gradient(to right,rgb(0,0,0,0.8),rgb(13, 0, 27,0.8));
+    padding: 10px 0 ;
+    width:458px;
+    border-radius:10px;
+    border-bottom:1px solid white;
+    border-right:1px solid white;
+    box-shadow: 8px 8px 12px black;
+    transform:translatey(10px);
+}
+
+.centering{
+    position:absolute;
+    top:55%;
+    left:50%;
+    transform:translate(-50%,-50%);
+
+}
+
+/*basic styling of signup box*/
+.box{
+    margin:0 auto;
+    background-color: rgba(0, 0, 0, 0.9);
+    width:450px;
+    padding:16px 15px;
+    border-radius:20px;
+    box-shadow: 0px 0px 9px black;
+    height:420px;
+    padding:10px;   
+    margin-top:2vw;
+}
+/*the login box hover effect*/
+.box:hover{
+    transition:.8s;
+    background-color:rgba(10, 4, 0,0.96);
+    box-shadow: 0px 0px 38px rgb(255, 136, 0);
+}
+
+/*customizing the styling of text input box!*/
+.box input[type = 'text'] {
+    display: flex;
+    flex-direction: column;
+    color:rgb(255, 166, 0);
+    padding:1.5px 10px;
+    font-size: 24px;
+    border-radius:15px;
+    background-color:rgb(0,0,0,0);
+    width:400px;
+    height:45px;
+    border:3px solid rgb(255, 166, 0);
+    margin:0 auto;
+    margin-top:13px;
+}
+
+
+
+/*customizing the styling of password input box!*/
+.box input[type = 'password'] {
+    display: flex;
+    flex-direction: column;
+    color:rgb(255, 166, 0);
+    margin:0 auto;
+    margin-top:13px;
+    padding:1.5px 10px;
+    font-size: 24px;
+    border-radius:15px;
+    background-color:rgb(0,0,0,0);
+    width:400px; 
+    border:3px solid rgb(255, 166, 0);
+    height:45px;
+}
+
+.thebutton {
+    display:inline-block;
+    top:50%;
+    left:50%;
+    transform: translate(30%,32%);
+}
+
+
+/*customizing the styling of submit buttons!*/
+.box input[type = 'submit'] {
+    display:inline-block;
+    text-align: center;
+    font-weight: 900;
+    font-family: arial;
+    color:rgb(255, 255, 255);
+    border:3px solid rgb(255, 166, 0);
+    border-bottom:0;
+    font-size: 25px;
+    border-radius:45px;
+    background-color:rgb(0,0,0,0);
+    width:150px;
+    height:45px;
+    padding:1px ;
+    cursor: pointer;
+    margin-right:37px;
+    margin-left:10px;
+    box-shadow:0px 5px 1px rgb(156, 3, 3);
+    border-left: 0;
+    border-right:0;
+}
+
+
+
+/*customizing the hover action on submit*/
+.box input[type = 'submit']:hover{
+    border:3px solid rgbrgb(255, 166, 0);
+    transition:2s background-color;
+    transition:.2s color;
+    background-color: rgb(255, 166, 0);
+    color:black;
+    text-shadow:1px 1px 2px red;
+}
+
+
+
+ #loginbutton{
+    display:inline-block;
+    text-align: center;
+    font-weight: 900;
+    font-family: arial;
+    color:rgb(255, 255, 255);
+    border:3px solid rgb(255, 166, 0);
+    font-size: 25px;
+    border-radius:40px;
+    background-color:rgb(0,0,0,0);
+    width:142px;
+    height:37px;
+    padding:1px ;
+    cursor: pointer;
+    box-shadow:0px 5px 1px rgb(156, 3, 3);
+    border-left: 0;
+    border-right:0;
+    border-bottom:0;
+
+}
+
+
+
+#loginbutton:hover{
+    border:3px solid rgbrgb(255, 166, 0);
+    transition:2s background-color;
+    transition:.2s color;
+    background-color: rgb(255, 166, 0);
+    color:black;
+    text-shadow:1px 1px 2px red;
+}
+
+#loginbutton:active{
+    transform:translate(30%,38%);
+    box-shadow:0px 2px 1px rgb(156, 3, 3);
+
+    }
+ .box input[type = 'submit']:active{
+ 
+        transform:translate(30%,38%);
+        box-shadow:0px 2px 1px rgb(156, 3, 3);
+    
+ }
+
+ .backbuttonlogin:link{
+     color:black;
+     text-decoration: none;
+ }
+ .backbuttonlogin:active{
+    color:black;
+    text-decoration: none;
+}
+
+
+/*this is to remove the focus selector outline*/
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+
+
+
+/*footer on this page*/
+#footText {
+    position:fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    background-image: linear-gradient(to right,rgb(0,0,0,.6),rgb(0,0,0,.6),rgb(24, 0, 31,0.03),rgb(24, 0, 31,0.03),rgb(24, 0, 31,0.03),rgb(24, 0, 31,0.03),rgb(0,0,0,.6),rgb(0,0,0,.6));
+    font-family: xiaowei;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 900;
+    letter-spacing: 7px;
+    padding: 2px;
+    margin: 0 4px;
+    margin-bottom: 2px;
+    margin-top: 2vw;
+    border-radius: 10px;
+    cursor: not-allowed;
+}
+
+    
+#copyright{
+    font-size: 16px;
+ }

@@ -1,0 +1,133 @@
+@font-face { font-family: "XiaoWei"; 
+    src: url('fonts/XiaoWei.ttf'); } 
+@font-face { font-family: "Comfortaa";
+    src: url('fonts/Comfortaa.ttf'); }
+@font-face {font-family: 'creteround';
+    src:url('fonts/Crete_Round/CreteRound-Regular.ttf');}
+@font-face {font-family: 'OldStandard';
+    src:url('fonts/Old Standard/OldStandardTT-Regular.ttf');}
+/*in the above code we imported the fonts locally to be used for making the projects
+now the real styling code starts from below*/
+
+
+/*this code blow sets the universal document margin and padding to be zero be default!*/
+*{
+    margin:0;
+    padding:0;
+}
+
+
+/*we style the body of our html document here by setting an image sa background and resizing it to fit on our document*/
+body {
+    background-image: url("background-images/manyfruits.jpg");
+    background-size: 120vmax;
+}
+
+
+
+.centered{
+    border:solid white 1.3px;
+    border-top:dashed 6px rgb(97, 97, 97);
+    position: absolute;
+	top:0;
+	bottom: 2%;
+	left: 0;
+	right: 0;
+	margin: auto;
+    width: 500px;
+    height: 470px;
+    background:rgba(255, 255, 255, 0.4);
+    box-shadow:12px 12px 35px black;
+    border-bottom-left-radius: 270px;
+    border-bottom-right-radius: 270px;
+    padding:20px;
+
+}
+
+#message{
+    font-family:comfortaa;
+    line-height: 57px;
+    font-weight:900;    
+    text-shadow: 0px 0px 1px black, 0px 0px 1px  black,1px 1px 8px rgb(189, 85, 0);
+    padding : 17px 20px;
+    font-size:47px;
+    text-align: center;
+}
+
+
+
+.cont:active {
+    color:black;
+    text-decoration: none;
+}
+
+.cont:hover {
+    color:black;
+    text-decoration: none;
+}
+
+.cont:visited {
+    color:black;
+    text-decoration: none;
+}
+ 
+.cont:link {
+    color:black;
+    text-decoration: none;
+}
+#continueButton{
+    
+    margin:5px auto;
+    width: fit-content;
+    height: fit-content;
+    left:0;
+    right:0;
+    font-size: 34px;
+    position: relative;
+    text-align: center;
+    background: white;
+    padding-top: 22px;
+    background-color:rgb(0, 0, 0,0.8);
+    color:white;
+    text-shadow: 1px 1px 3px black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    border-radius:50px;
+    box-shadow: 0px 5px 1px rgb(161, 37, 37);
+    padding:7px 20px;
+}
+
+#continueButton:hover{
+    transition:0.2s linear background-color;
+    background-color:black;
+    box-shadow:0px 5px 1px red;
+    text-shadow: 1px 1px 3px red; 
+}
+
+
+#continueButton:active {
+    transform:translatey(2px);
+    box-shadow: 0px 3px 1px red;
+}
+
+
+#footText {
+    background-image: linear-gradient(to right,rgb(0,0,0),rgb(0,0,0,0.56),rgb(180, 180, 180,0.4),rgb(180, 180, 180,0.7),rgb(180, 180, 180,0.7),rgb(180, 180, 180,0.4),rgba(0,0,0, 0.5),rgb(0,0,0));
+    font-family: xiaowei;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 900;
+    letter-spacing: 7px;
+    padding: 2px;
+    margin-bottom: 2px;
+    border-radius: 10px;
+    position: fixed;
+    bottom:0;
+    right:0;
+    left:0;
+}
+#copyright{
+    font-size: 18px;
+    vertical-align: -.75px;
+ }
+ 
