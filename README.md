@@ -1,5 +1,5 @@
 # RGG
-RGG - Russian Green Grocers is a simple yet a smooth web application which focuses slightly more on improving the GUI and hence the user experience. 
+RGG - Russian Green Grocers is a simple yet smooth web application which focuses slightly more on improving the GUI and hence the user experience. RGG is developed with **PHP and MySQL (making efficient use of PHP Sessions and MySQL triggers) supporting the backend and CSS (not CSS3) supporting the frontend structured on HTML and PHP scripts.**  
 ##
 
 <img width=800 src="https://wkhkow.dm.files.1drv.com/y4mddXhgImvtuiymaaDNN5aEL8A3RnNEFuR7o9yF7HJjBFMULmx8WDULaDHGAL3jmDvCsSXFeh4HX7TQTXHA0ffurKh8K0Oh7ejjkeR2KFMfhogRbn9oG90J-5kyK-bSmhuxefw_R2xS9WJTxaLzFczdGEHI7DJ8h0VMyv4xteBmQYV-km1k09DlU30-dmu4dZR0toCCPMn48WdNNkIlwopJw"/>
